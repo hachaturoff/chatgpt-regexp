@@ -1,0 +1,70 @@
+.main-panel {
+    position: relative;
+    height: 425px;
+    width: 455px;
+    background: linear-gradient( #525249, #1f2f37);
+    border-radius: 7px;
+    box-shadow: inset 2px 2px #c99f61, 2px 2px 2px #000B1F;
+}
+.wrapper-monitor {
+    position: absolute;
+    top: 15px;
+    left: 25px;
+}
+#div1 {
+    position: absolute;
+    top: 0;
+    left: 25px;
+    width: 372px;
+    height: 291px;
+    background: #01111F;
+    border-radius: 4px;
+}
+#div2 {
+    position: absolute;
+    top: 13px;
+    left: 13px;
+    width: 398px;
+    height: 271px;
+    background: #01111F;
+    border-radius: 4px;
+}
+#div3 {
+    position: absolute;
+    top: 25px;
+    left: 0;
+    width: 422px;
+    height: 248px;
+    background: #01111F;
+    border-radius: 4px;
+}
+
+#wrapper-input {
+    position: absolute;
+    background: #01111F;
+    top: 330px;
+    left: 140px;
+    width: 294px;
+    height: 71px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 25px;
+    line-height: 32px;
+    color: #DC0A23;
+}
+#div4 {
+    position: absolute;
+    top: 4px;
+    left: 22px;
+    width: 270px;
+    height: 64px;
+    background: #052332;
+    border-radius: 3px;
+    box-shadow: 1px 1px 1px #DC0A23;
+    z-index: 0;
+}
+#wrapper-input img {
+    z-index: 1;
+}

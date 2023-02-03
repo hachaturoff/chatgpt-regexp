@@ -1,0 +1,19 @@
+.right-panel {
+    height: 425px;
+    width: 137px;
+    background-color: #525249;
+    border-radius: 7px;
+    box-shadow: inset 2px 2px #c99f61, 2px 2px 2px #000B1F;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.right-panel div {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+}

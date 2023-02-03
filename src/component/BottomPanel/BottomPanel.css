@@ -1,0 +1,11 @@
+.bottom-panel {
+    width: 596px;
+    height: 35px;
+    background: linear-gradient( #1E2B31, #061B29);
+    border-radius: 7px;
+    box-shadow: inset 2px 2px #c99f61, 2px 2px 2px #000B1F;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
